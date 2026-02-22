@@ -1,0 +1,24 @@
+title-text: ""
+desktop-image: "background.png"
+
+terminal-font: "Fixedsys Regular 8"
+terminal-border: "0"
+
++ boot_menu {
+  left = 30%
+  top = 35%
+  width = 40%
+  height = 45%
+
+  item_font = "Fixedsys Regular 8"
+  item_color = "#000000ee"
+  selected_item_color = "#000000ee"
+
+  item_height = 30
+  item_spacing = 8
+  item_icon_space = 8
+
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
